@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="text">
+            <p class="marka">POPÓLÓ</p>
+         </div>
+        <div class="menu">
+            <a href="/">
+                Home
+            </a>
+            <a href="/termekek">
+                Termékek
+            </a>
+            <a href="/kapcsolat">
+                Kapcsolat
+            </a>
+            <a href="/rolunk">
+                Rólunk
+            </a>
+        </div>
+        <div class="text">
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="admin-main">
+                <div class="card">
+                    <div class="img">Új</div>                   
+                    <form id="create-new-card" action="submit">
+                        <div style="margin-top: 10px;">
+                            <label for="cim">Termék neve</label>
+                            <input type="text" name="cim"> 
+                        </div>                                                      
+                        <div style="margin-top: 10px;">
+                            <label for="size">Méret</label>
+                            <input type="text" name="size">
+                        </div> 
+                         <div style="margin-top: 10px;">
+                             <label for="stock">Darab</label>
+                                 <input type="number" name="stock">   
+                        </div>                                                                        
+                        <button style="width: 50px; height: 25px; margin-top: 10px;">Új</button>                       
+                    </form>
+                </div> 
+                <div id="admin-cards">                                       
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="admin.js"></script>    
+</body>
+</html>

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    background-image: url("../a.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: scroll;
+    
+}
+
+.header {
+    background-color: rgb(101, 185, 157);
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    box-shadow: inset 10px 10px 20px white;
+    border-bottom: rgba(0, 0, 0, 0.144) 1px solid;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.header a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 110px auto 0 auto;
+    font-size: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 24, 24);
+}
+
+.marka {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    z-index: 4;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.main {
+    width: 100vw;
+    margin-top: 200px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(101, 185, 157, 0.418);
+    margin: 30px;
+    width: 300px;
+    border: rgb(101, 185, 157, 0.418) 2px solid;
+    box-shadow: 5px 5px 35px;
+    position: relative;
+}
+
+.card h1 {
+   color: rgb(0, 0, 0);
+   margin-bottom: 20px;
+}
+
+.cards-text {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+.home-text {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 100px;
+    text-align: center;
+    width: 100vw;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.home-text p {
+    font-size: 50px;
+} 
+
+.admin-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#admin-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(105, 105, 136, 0.541);
+}
+
+.delete-card {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: cyan;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#delete-button,#edit-button {
+    margin: 5px;
+    padding: 0 5px;
+}
+
+#termekek {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}    
